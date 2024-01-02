@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 30px;
+}
+
+.wrapper>input {
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: 2px solid blue;
+}
+
+.wrapper>button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(111, 111, 255);
+    color: white;
+    border: none;
+
+}
+
+.wrapper>input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
